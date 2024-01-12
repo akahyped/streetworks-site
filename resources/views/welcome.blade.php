@@ -38,7 +38,7 @@
         </div>
         <div class="end spash">
             <p class="">
-                <span class="logo center">Streetworks</span> <span class="logo-desc center">The ultimate workout collaboration app coming to iOS </span>
+                <span class="logo center">Streetworks</span> <span class="logo-desc center">The ultimate workout collaboration app coming to iOS - 2024 </span>
             </p>
         </div>
         
