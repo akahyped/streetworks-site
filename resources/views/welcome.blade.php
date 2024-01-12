@@ -28,7 +28,7 @@
     <!-- viewport maxed spash screen container-->
     <div class="mcontainer">
         <div class="banner center">
-            Follow our development on Social Medie
+            Follow our development on Social Media
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-linkedin"></a>
