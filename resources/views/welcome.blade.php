@@ -17,7 +17,7 @@
         .mcontainer {
             width: 100vw;
             height: 100vh;
-            background-image: url("{{ asset('storage/images/kayak-blur.jpg') }}");
+            background-image: url("{{ asset('storage/images/brook-2560.jpg') }}");
             background-repeat: no-repeat;
             box-shadow: 0 0 200px rgba(0,0,0,25) inset;
         }
@@ -28,7 +28,7 @@
     <!-- viewport maxed spash screen container-->
     <div class="mcontainer">
         <div class="banner center">
-            Follow our development on Social Media
+            <span class="banner-text">Follow our development on Social Media</span>
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-linkedin"></a>

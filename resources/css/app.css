@@ -15,17 +15,22 @@ a{
 .banner {
 	margin: 0;
 	width: 100vw;
-	height: 25px;
-	background-color: purple;
+	height: 40px;
+	background-color: #F3B940;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.banner-text{
+	color: #fff;
 }
 
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
 	font-family: tahoma;
-	font-size: 10px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .end {
@@ -41,10 +46,12 @@ a{
 .logo {
 	font-size: 3vw;
 	font-weight: bold;
+	color: #fff;
 }
 
 .logo-desc {
 	font-size: 1vw;
+	color: #fff;
 }
 
 .logo-desc::after {
@@ -71,14 +78,14 @@ a{
 }
 
 .spash-button-press {
-	background-color: purple;
+	background-color: #F3B940;
 	font-weight: bold;
 	width: 6vw;
-	height: 2vw;
+	height: 1.5vw;
 	font-size: .8vw;
-	border-radius: 20px;
+	border-radius: 5px;
 	justify-content: center;
-	padding-top: .9vw;
+	padding-top: .5vw;
 }
 
 .spash-button-press:hover {
@@ -90,14 +97,45 @@ a{
 
 
 
+
+@media (max-width: 1350px) {
+	.spash-button-press {
+		width: 13vw;
+		height: 2.9vw;
+		font-size: 1.5vw;
+		padding-top: 1vw;
+	}
+	.logo {
+		font-size: 6vw;
+		font-weight: bold;
+	}
+
+	.logo-desc {
+		font-size: 1.5vw;
+	}
+	.logo-desc::after {
+		content: "";
+		width: 2px;
+		height: 3vw;
+		background: #fff;
+		display: inline-block;
+	}
+	.banner {
+		width: 100vw;
+		height: 35px;
+		font-size: 10px;
+	}
+}
+
+
+
+
 @media (max-width: 800px) {
 	.spash-button-press {
-		width: 20vw;
-		height: 5vw;
-		font-size: 2.5vw;
-		border-radius: 20px;
-		justify-content: center;
-		padding-top: 1.5vw;
+		width: 30vw;
+		height: 7vw;
+		font-size: 3vw;
+		padding-top: 4vw;
 	}
 	.logo {
 		font-size: 10vw;
@@ -117,7 +155,7 @@ a{
 	.banner {
 		width: 100vw;
 		height: 35px;
-		font-size: 14px;
+		font-size: 2.5vw;
 	}
 }
 
@@ -126,14 +164,14 @@ a{
 
 /* Style all font awesome icons */
 .fa {
-  padding: 2px;
-  font-size: 30px;
-  margin-left: 5px;
+  padding: 6px;
+  font-size: 35px;
+  margin-left: 8px;
   width: 12px;
   height: 12px;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+ 
 }
 
 /* Add a hover effect if you want */
